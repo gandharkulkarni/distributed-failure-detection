@@ -1,0 +1,8 @@
+syntax = "proto3";
+option go_package = "./msg_handler";
+
+message nodeMsg{
+    string hostname = 1;
+    bool heartbeat = 2;
+    bool registration =3;
+}
